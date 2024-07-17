@@ -8,18 +8,18 @@
     >
       <q-input
         filled
-        v-model="ชื่อ"
-        label="ชื่อของมึง"
-        hint="ชื่อและนามสกุล"
+        v-model="name"
+        label="ชื่อของคุณ"
+        hint="ชื่อ และ นามสกุล"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']"
       />
 
       <q-input
         filled
-        type="เลข"
-        v-model="อายุ"
-        label="อายุของมึง"
+        type="number"
+        v-model="age"
+        label="อายุของคุณ"
         lazy-rules
         :rules="[
           val => val !== null && val !== '' || 'Please type your age',
