@@ -66,7 +66,7 @@ export default {
 
     const name = ref("ชัชวาลย์")
     const surname = ref("อ้วนล่ำ")
-    const id = ref(null)
+    const id = ref("6604101319")
     const age = ref(null)
     const accept = ref(false)
 
